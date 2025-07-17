@@ -7,7 +7,8 @@
     justify-content: center;
     margin: auto;
     padding: 0px 140px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
+    margin-top: 550px;
     background: linear-gradient(180deg, #e8ffe1 0%, #e1ffea22 60%);
     gap: 30px;
 }
