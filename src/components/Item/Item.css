@@ -1,5 +1,12 @@
 .item{
     width: 350px; 
+    text-decoration: none;
+    /* color: inherit; */
+    display: block;
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
 .item p{
     margin: 6px 0px;
@@ -10,11 +17,11 @@
 }
 
 .item-price-new{
-    color: #374151;
+    color: #f47507;
     font-size: 18px;
     font-weight: 600;
 }
-.item-price-new{
+.item-price-old{
     color: #8c8c8c;
     font-size: 18px;
     font-weight: 500;
