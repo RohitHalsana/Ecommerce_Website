@@ -20,6 +20,7 @@ function App() {
       <BrowserRouter>
         <Navbar/>  
         <ScrollToTop/>
+        <div className='Below_Navbar'>  
         <Routes>
           <Route path='/' element={<Shop/>}/>
           <Route path='/men' element={<ShopCategory banner = {men_banner} category="men"/>}/>
@@ -30,6 +31,7 @@ function App() {
           <Route path='/Signup' element={<Signup/>}/>
           <Route path='/login' element={<Login/>}/>
         </Routes>    
+        </div>
         <Footer/>
       </BrowserRouter>
     </div>
