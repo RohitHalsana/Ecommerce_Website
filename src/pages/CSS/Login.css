@@ -8,7 +8,8 @@ body {
 }
 
 .login-wrapper {
-  background-color: #5fbbac;
+  padding: 50px 20px;
+  background-color: #56c8e4;
   display: flex;
   justify-content: center;
   align-items: center;

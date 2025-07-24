@@ -228,7 +228,7 @@
     /* Dropdown icon styling */
     .dropdown {
     display: block;
-    width: 40px;
+    width: 30px;
     cursor: pointer;
     transform: rotate(-90deg);
     transition: transform 0.5s ease;

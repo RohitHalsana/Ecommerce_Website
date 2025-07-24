@@ -31,9 +31,10 @@
     background: white;
     width: 730px;
     border: 1px solid white;
+    border-radius: 80px;
 }
 
-.NewsLetter input{
+.NewsLetter input {
         width: 500px;
         margin-left: 30px;
         border: none;
@@ -41,6 +42,7 @@
         color: #616161;
         font-family: Poppins;
         font-size: 16px;
+        
 }
     
 .NewsLetter div button {
@@ -55,4 +57,101 @@
 .NewsLetter div button:hover{
     transform: scale(1.01);
     transition: 0.6s;
+}
+
+@media(max-width: 1280px){
+    .NewsLetter{
+        padding: 0px  80px;
+        margin-bottom: 120px;
+        gap: 20px;
+    }
+    .NewsLetter h1{
+        font-size: 36px;
+    }
+    .NewsLetter p{
+        font-size: 16px;
+    }
+    .NewsLetter div{
+        width: 600px;
+        height: 60px;
+    }
+    .NewsLetter div input{
+        width: 400px;
+    }
+    .NewsLetter div button{
+        width: 160px;
+        height:60px;
+    }
+}
+
+@media(max-width: 1024px){
+    .NewsLetter{
+        
+        margin-bottom: 60px;
+    }
+    .NewsLetter h1{
+        font-size: 30px;
+    }
+    .NewsLetter p{
+        font-size: 14px;
+    }
+    .NewsLetter div{
+        width: 500px;
+        height: 40px;
+    }
+    .NewsLetter div input{
+        width: 300px;
+        font-size: 14px;
+    }
+    .NewsLetter div button{
+        width: 120px;
+        height:40px;
+    }
+}
+@media(max-width: 800px){
+    .NewsLetter{        
+        margin-bottom: 30px;
+        height:35vh
+    }
+    .NewsLetter h1{
+        font-size: 18px;
+    }
+    .NewsLetter p{
+        font-size: 12px;
+    }
+    .NewsLetter div{
+        width: 400px;
+        height: 40px;
+    }
+    .NewsLetter div input{
+        width: 200px;
+        font-size: 12px;
+    }
+    .NewsLetter div button{
+        width: 100px;
+        height:40px;
+    }
+}
+
+@media(max-width: 500px){
+    .NewsLetter{        
+        height:25vh;
+        width:90%;
+        padding: 0;
+        gap: 15px;
+    }
+    .NewsLetter h1{
+        font-size: 16px;
+    }
+    .NewsLetter p{
+        font-size: 13px;
+        max-width: 200px;
+        text-align: center;
+    }
+    .NewsLetter div{
+        width: 290px;
+    }
+    .NewsLetter div input{
+        width: 180px;        
+    }
 }
